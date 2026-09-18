@@ -10,6 +10,8 @@ import java.util.regex.Pattern;
 public class Assignment5 {
 
     public static void printRegEx(String regex, int n) {
+        System.out.println("------- Strings in the language -------");
+
         Pattern pattern = Pattern.compile(regex);
         Queue<String> queue = new ArrayDeque<>();
 
